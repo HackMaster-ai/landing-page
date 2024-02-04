@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links > ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: none;
+    padding: 9px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    width: 70px;
+    font-weight: bold;
+}
+
+.placeholder-image {
+    background-color: gray;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 45px;
+}
+
+.info-section h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card-image {
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 120px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.message-container {
+    background-color: #3882F6;
+    color: white;
+    width: 800px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.message-button {
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 9px;
+
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 15px;
+}
